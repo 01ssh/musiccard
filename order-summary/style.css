@@ -1,0 +1,112 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#e0e8ff;
+  }
+
+.backg{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+.container{
+width: auto;
+height: auto;
+margin-top: 50px;
+margin-bottom: ;
+border-radius: 30px;
+background-color: white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container .card{
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.contentBx{
+  text-align: center;
+  color: #223249;
+  margin: 40px 0 0 0;
+
+}
+
+.text{
+color:#9d9fab;
+}
+
+.plan{
+    display: flex;
+    max-width: 350px;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+background-color:#f8f9fe;
+border-radius: 20px;
+}
+.plan img{
+    margin: 20px 0 20px 30px;
+   }
+.plan a{
+
+    padding-right: 20px;
+    cursor: pointer;
+    }
+
+  .pricebox{
+display: inline-grid;
+color: black;
+text-align: left;
+width: 150px;
+} 
+
+  .pricebox div{
+      color: grey;
+      font-size: 18px;
+      padding-top: 5px;
+  }
+  
+
+.btnprocess button{
+    width: 350px;
+    background-color:#766cf1;
+    color: #f3f4fe;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 12px 15px 0px rgba(32,24,127,0.26);
+    margin-top: 20px;
+    cursor: pointer;
+    }
+    
+    .btnprocess button:active{
+    background-color:#382ae1;
+}
+
+
+    .btncancel button{  
+    margin: 30px 0 40px 0;
+    background: none;
+    border: none;
+    color:#acb7cd;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+    .btncancel button:active {
+        color:#1d2635;
+    }
